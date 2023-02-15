@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>label</title>
+</head>
+<body>
+    <form action='#'>
+        이메일 <input type='text'/><br>
+        <label>이메일 </label><input type='text'/><br> <!--markup 시켰으므로 유지보수가 좋다.-->
+        <label for='userId'>이메일 </label><input type='text' id='userId'/><br> <!--더욱 명확한 코딩. 시간비례 비용은 증가한다.-->
+        <label for='password'>암 &nbsp; 호 <input type='text' id='password'/></label><!--label tag 안에 input을 넣는 방법이다.-->
+    </form>
+</body>
+</html>
